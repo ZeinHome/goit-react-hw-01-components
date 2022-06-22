@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZeinHome/goit-react-hw-01-components/static/css/main.d31e4b76.css",
+    "main.js": "/ZeinHome/goit-react-hw-01-components/static/js/main.bc46ddd9.js",
+    "index.html": "/ZeinHome/goit-react-hw-01-components/index.html",
+    "main.d31e4b76.css.map": "/ZeinHome/goit-react-hw-01-components/static/css/main.d31e4b76.css.map",
+    "main.bc46ddd9.js.map": "/ZeinHome/goit-react-hw-01-components/static/js/main.bc46ddd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d31e4b76.css",
+    "static/js/main.bc46ddd9.js"
+  ]
+}
