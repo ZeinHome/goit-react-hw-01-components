@@ -7,9 +7,9 @@ function Statistics({title, stats}) {
   <Title>{title}</Title>
 
   <StatList >
-  {stats.map(p => <Item key={p.id}>
-      <span className="label">{p.label}</span>
-      <span className="percentage">{p.percentage}</span>
+  {stats.map(stat => <Item key={stat.id}>
+      <span className="label">{stat.label}</span>
+      <span className="percentage">{stat.percentage}</span>
     </Item>)} 
 
   </StatList>

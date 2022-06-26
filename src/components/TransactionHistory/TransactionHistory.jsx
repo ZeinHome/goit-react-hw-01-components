@@ -14,10 +14,10 @@ function TransactionHistory({items}) {
 
   <tbody>
 
-    {items.map(p => <Pocket key={p.id}>
-      <Column>{p.type}</Column>
-      <Column>{p.amount}</Column>
-      <Column>{p.currency}</Column>
+    {items.map(item => <Pocket key={item.id}>
+      <Column>{item.type}</Column>
+      <Column>{item.amount}</Column>
+      <Column>{item.currency}</Column>
     </Pocket>)}
 
   </tbody>

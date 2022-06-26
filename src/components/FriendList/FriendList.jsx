@@ -4,10 +4,10 @@ import {ContainerFriend, FriendItem, Status, FriendName  } from "./FriendList.st
 function FriendList({friends}) {
     return(
 <ContainerFriend>
-{friends.map(p => <FriendItem key={p.id}>
-    <Status style={{backgroundColor: p.isOnline ? 'green' : 'red'}}></Status>
-  <img className="avatar" src={p.avatar} alt="User avatar" width="48" />
-  <FriendName>{p.name}</FriendName>
+{friends.map(friend => <FriendItem key={friend.id}>
+    <Status style={{backgroundColor: friend.isOnline ? 'green' : 'red'}}></Status>
+  <img className="avatar" src={friend.avatar} alt="User avatar" width="48" />
+  <FriendName>{friend.name}</FriendName>
 </FriendItem>)}
 </ContainerFriend>
     )
